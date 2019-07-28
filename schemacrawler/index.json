@@ -5,7 +5,7 @@
   "time": "5 minutes",
   "details": {
     "intro": {
-		  "courseData": "env-init.sh",
+		  "code": "env-init.sh",
       "text": "intro.md"
     },
     "steps": [{
@@ -21,6 +21,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "docker"
   }
 }
