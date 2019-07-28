@@ -5,14 +5,23 @@
   "time": "5 minutes",
   "details": {
     "intro": {
-		  "code": "env-init.sh",
+      "code": "env-init.sh",
       "text": "intro.md"
     },
-    "steps": [{
-      "title": "Step 1 - Run SchemaCrawler",
-      "text": "step1.md",
-      "credits": "[Sualeh Fatehi](https://www.github.com/schemacrawler)"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - Run SchemaCrawler from the Command-line",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Get a List of Tables ",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Get a Details of Tables ",
+        "text": "step3.md"
+      }
+    ],
     "finish": {
       "text": "finish.md"
     }
@@ -21,6 +30,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }

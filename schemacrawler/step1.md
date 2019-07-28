@@ -1,7 +1,7 @@
 # Run SchemaCrawler Command-line
 
-## Get Help
+> Please wait for the SchemaCrawler Docker container to start. Then, move on to the next step.
 
-Get SchemaCrawler command-line help
+Get SchemaCrawler command-line help, by running:
 
-`schemacrawler --help`{{execute}}
+`schemacrawler --help | more`{{execute}}

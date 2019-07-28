@@ -1,1 +1,1 @@
-You've completed your SchemaCrawler course in Katacoda!
+You've completed your first SchemaCrawler scenario in Katacoda!
