@@ -1,4 +1,4 @@
-> Please wait for the SchemaCrawler Docker container to start. Then, move on to the next step.
+> Please wait for the SchemaCrawler Docker container to start. Then, move on to the steps.
 
 Get SchemaCrawler command-line help, by running:
 
