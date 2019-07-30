@@ -1,7 +1,7 @@
 {
-  "title": "SchemaCrawler - Introduction",
-  "description": "Introduction to the SchemaCrawler Command-line",
-  "difficulty": "Beginner",
+  "title": "SchemaCrawler - Introduction to the Interactive Shell",
+  "description": "Introduction to the SchemaCrawler Interactive Shell",
+  "difficulty": "Intermediate",
   "time": "5 minutes",
   "details": {
     "intro": {
@@ -10,7 +10,7 @@
     },
     "steps": [
       {
-        "title": "Step 1 - Run SchemaCrawler from the Command-line",
+        "title": "Step 1 - Run the SchemaCrawler Interactive Shell",
         "text": "step1.md"
       },
       {
