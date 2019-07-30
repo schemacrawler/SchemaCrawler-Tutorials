@@ -1,0 +1,17 @@
+{
+    "title": "SchemaCrawler",
+    "description": "Learn how to use SchemaCrawler",
+    "courses": [
+      {
+        "course_id": "schemacrawler",
+        "title": "SchemaCrawler",
+        "description": "Introduction to the SchemaCrawler Command-line"
+      },
+      {
+        "course_id": "schemacrawler-shell",
+        "title": "SchemaCrawler Interactive Shell",
+        "description": "Introduction to the SchemaCrawler Interactive Shell"
+      }
+    ]
+  }
+  
