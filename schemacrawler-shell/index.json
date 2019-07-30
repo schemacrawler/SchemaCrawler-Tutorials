@@ -27,7 +27,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mPlease wait for the SchemaCrawler Docker image to load...\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
