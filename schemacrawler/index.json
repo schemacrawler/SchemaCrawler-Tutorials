@@ -14,12 +14,20 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Get a List of Tables ",
+        "title": "Step 2 - Get a List of Tables",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Get a Details of Tables ",
+        "title": "Step 3 - Get Details of Tables",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Limit Tables in Output",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Search for Tables",
+        "text": "step5.md"
       }
     ],
     "finish": {
@@ -28,7 +36,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mPlease wait for the SchemaCrawler Docker image to load...\u001b[m\r\n"
+    "uimessage1": "\u001b[32mPlease wait for the SchemaCrawler Docker image to start...\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
