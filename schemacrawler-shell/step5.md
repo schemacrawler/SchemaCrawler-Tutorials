@@ -7,6 +7,16 @@ names ahead of time.
 
 -----
 
+## Remove Table Limits
+
+Use the `sweep` command to reset the SchemaCrawler Interactive Shell, and then load metadata, run:
+
+```
+sweep
+connect --server=sqlite --database=sc.db
+load --info-level=minimum
+```{{execute}}
+
 ## Grep for Tables
 
 `grep --grep-columns=.*Data`{{execute}}
