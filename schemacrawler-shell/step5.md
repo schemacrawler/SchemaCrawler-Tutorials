@@ -14,7 +14,7 @@ Use the `sweep` command to reset the SchemaCrawler Interactive Shell, and then l
 ```
 sweep
 connect --server=sqlite --database=sc.db
-load --info-level=minimum
+load --info-level=standard
 ```{{execute}}
 
 ## Grep for Tables
