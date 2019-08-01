@@ -9,7 +9,7 @@ names ahead of time.
 
 ## Grep for Tables
 
-`grep --grep-columns=.*\..*Data`{{execute}}
+`grep --grep-columns=.*Data`{{execute}}
 
 ## Run the Schema Command
 

@@ -17,3 +17,9 @@ Start the SchemaCrawler Interactive Shell, by running:
 From the shell prompt, `schemacrawler>`, run:
 
 `help`{{execute}}
+
+## Get Help for a Command
+
+For help on the `connect` command, from the shell prompt, `schemacrawler>`, run:
+
+`help connect`{{execute}}

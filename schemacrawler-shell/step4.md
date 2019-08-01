@@ -7,9 +7,13 @@ will ignore all other tables.
 
 -----
 
+## Show No Information
+
+`show --no-info`{{execute}}
+
 ## Limit Tables Under Consideration
 
-`limit --tables=.*\.Authors`{{execute}}
+`limit --tables=.*Authors`{{execute}}
 
 ## Reload Database Metadata
 

@@ -9,4 +9,4 @@ names ahead of time.
 
 Grep for tables, by running:
 
-`schemacrawler --server=sqlite --database=sc.db --grep-columns=.*\..*Data --no-info --info-level=standard --command=schema`{{execute}}
+`schemacrawler --server=sqlite --database=sc.db --grep-columns=.*Data --no-info --info-level=standard --command=schema`{{execute}}
