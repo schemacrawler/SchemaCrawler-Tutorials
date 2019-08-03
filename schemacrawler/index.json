@@ -28,6 +28,10 @@
       {
         "title": "Step 5 - Search for Tables",
         "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Run Other Commands",
+        "text": "step6.md"
       }
     ],
     "finish": {
