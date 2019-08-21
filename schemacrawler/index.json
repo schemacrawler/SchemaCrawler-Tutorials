@@ -32,6 +32,10 @@
       {
         "title": "Step 6 - Run Other Commands",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Find Related Tables",
+        "text": "step7.md"
       }
     ],
     "finish": {
