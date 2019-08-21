@@ -4,9 +4,7 @@ This step shows you how to run commands to obtain table counts, and data dumps.
 
 -----
 
-## Run the Other Commands
-
-From the SchemaCrawler Interactive Shell, run the other commands:
+Run the following SchemaCrawler command-lines:
 
 `schemacrawler --server=sqlite --database=sc.db --grep-columns=.*Data --no-info --info-level=standard --command=count`{{execute}}
 
