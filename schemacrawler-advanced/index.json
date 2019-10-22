@@ -7,7 +7,6 @@
     "intro": {
       "code": "env-init.sh",
       "text": "intro.md"
-			"credits": "Official [SchemaCrawler](https://www.schemacrawler.com) training"
     },
     "steps": [
       {
@@ -17,7 +16,7 @@
       {
         "title": "Step 2 - Export Database Schema Metadata to a File",
         "text": "step2.md"
-      }			
+      }     
     ],
     "finish": {
       "text": "finish.md"
