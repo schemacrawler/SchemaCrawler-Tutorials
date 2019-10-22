@@ -1,0 +1,33 @@
+{
+  "title": "SchemaCrawler - Advanced Topics",
+  "description": "Advanced use of SchemaCrawler",
+  "difficulty": "Intermediate",
+  "time": "5 minutes",
+  "details": {
+    "intro": {
+      "code": "env-init.sh",
+      "text": "intro.md"
+			"credits": "Official [SchemaCrawler](https://www.schemacrawler.com) training"
+    },
+    "steps": [
+      {
+        "title": "Step 1 - Run the SchemaCrawler Interactive Shell",
+        "text": "step1.md"
+      }, 
+      {
+        "title": "Step 2 - Export Database Schema Metadata to a File",
+        "text": "step2.md"
+      }			
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mPlease wait for the SchemaCrawler Docker image to start...\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
