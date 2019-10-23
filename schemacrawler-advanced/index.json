@@ -14,8 +14,12 @@
         "text": "step1.md"
       }, 
       {
-        "title": "Step 2 - Export Database Schema Metadata to a File",
+        "title": "Step 2 - Export Database Schema Metadata to a Text File",
         "text": "step2.md"
+      }, 
+      {
+        "title": "Step 3 - Export Database Schema Metadata to a JOSN File",
+        "text": "step3.md"
       }     
     ],
     "finish": {
