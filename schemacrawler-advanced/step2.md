@@ -9,7 +9,7 @@ This step shows you how to export export database schema metadata to a text file
 From the SchemaCrawler Interactive Shell, run:
 
 ```
-execute --command=schema --output-file=/share/schema.txt
+execute --command=schema --output-file=./share/schema.txt
 ```{{execute}}
 
-Then open the file in the editor to view the contents.
+Then open the file in the editor to view the contents. The file will be in the `/root/share` directory on the host.
