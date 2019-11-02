@@ -6,7 +6,7 @@
   "details": {
     "assets": {
         "client": [
-            {"file": "tables.*", "target": "/root"}
+            {"file": "tables.js", "target": "/root"}
         ]
     },
     "intro": {
