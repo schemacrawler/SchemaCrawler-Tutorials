@@ -4,8 +4,13 @@
   "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
+    "assets": {
+        "client": [
+            {"file": "tables.*", "target": "/root"},
+        ]
+    },
     "intro": {
-      "code": "env-init.sh",
+      "code": "scripts/env-init.sh",
       "text": "intro.md"
     },
     "steps": [
