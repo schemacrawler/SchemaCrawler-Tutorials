@@ -6,7 +6,7 @@
   "details": {
     "assets": {
         "client": [
-            {"file": "tables.js", "target": "~/"}
+            {"file": "tables.*", "target": "~/"}
         ]
     },
     "intro": {
@@ -52,6 +52,6 @@
     "uimessage1": "\u001b[32mPlease wait for the SchemaCrawler Docker image to start...\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "docker"
   }
 }
