@@ -5,7 +5,7 @@
   "time": "5 minutes",
   "details": {
     "assets": {
-        "client": [
+        "host01": [
             {"file": "tables.js", "target": "/root"}
         ]
     },
