@@ -2,13 +2,8 @@
   "title": "SchemaCrawler - Introduction",
   "description": "Introduction to the SchemaCrawler Command-line",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "10 minutes",
   "details": {
-    "assets": {
-        "host01": [
-            {"file": "tables.*", "target": "~/"}
-        ]
-    },
     "intro": {
       "code": "scripts/env-init.sh",
       "text": "intro.md"

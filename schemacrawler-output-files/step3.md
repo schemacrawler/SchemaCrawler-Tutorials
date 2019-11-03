@@ -1,6 +1,6 @@
 -----
 
-This step shows you how to export export database schema metadata to a JSON file. SchemaCrawler supports a number of output formats.
+This step shows you how to export database schema metadata to a JSON file. SchemaCrawler supports a number of output formats.
 
 -----
 

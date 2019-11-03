@@ -2,10 +2,10 @@
   "title": "SchemaCrawler - Generating Output Files",
   "description": "How to generate database schema output in various formats with SchemaCrawler",
   "difficulty": "Intermediate",
-  "time": "5 minutes",
+  "time": "20 minutes",
   "details": {
     "intro": {
-      "code": "env-init.sh",
+      "code": "scripts/env-init.sh",
       "text": "intro.md"
     },
     "steps": [
@@ -30,8 +30,12 @@
         "text": "step5.md"
       }, 
       {
-        "title": "Step 5 - Export Database Schema Metadata to a Diagrams Files",
+        "title": "Step 6 - Export Database Schema Metadata to a Diagrams Files",
         "text": "step6.md"
+      }, 
+      {
+        "title": "Step 7 - Run JavaScript Against Schema Metadata",
+        "text": "step7.md"
       }     
     ],
     "finish": {

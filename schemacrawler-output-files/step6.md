@@ -1,6 +1,6 @@
 -----
 
-This step shows you how to export export database schema metadata to diagram files. SchemaCrawler supports a number of output formats.
+This step shows you how to export database schema metadata to diagram files. SchemaCrawler supports a number of output formats.
 
 -----
 
