@@ -30,7 +30,7 @@
         "text": "step5.md"
       }, 
       {
-        "title": "Step 6 - Export Database Schema Metadata to a Diagrams Files",
+        "title": "Step 6 - Export Database Schema Metadata to Diagram Files",
         "text": "step6.md"
       }, 
       {
@@ -40,6 +40,10 @@
       {
         "title": "Step 8 - Run Python Against Schema Metadata",
         "text": "step8.md"
+      }, 
+      {
+        "title": "Step 9 - Render a Mustache Template Against Schema Metadata",
+        "text": "step9.md"
       }     
     ],
     "finish": {
