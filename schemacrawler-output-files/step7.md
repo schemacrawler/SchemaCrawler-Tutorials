@@ -30,6 +30,7 @@ i
 Copy and paste the following script into the new file:
 
 ```javascript
+
 // Define all standard Java packages:
 var JavaPackages = new JavaImporter(
   java.lang,
@@ -64,6 +65,7 @@ var printChildren = function()
 printChildren();
 
 }
+
 ```{{copy}}
 
 Save the file. First press `Esc`. Then type
@@ -79,7 +81,7 @@ Save the file. First press `Esc`. Then type
 From the command-line, run:
 
 ```
-schemacrawler --server=sqlite --database=sc.db --info-level=standard --command=script --script  tables.js --scripting-language=javascript --output-file=tables.js.txt
+schemacrawler --server=sqlite --database=sc.db --info-level=standard --command=script --script  tables.js --scripting-language=javascript --output-file=./share/tables.js.txt
 ```{{execute}}
 
 You will notice the output from the JavaScript program in the view above.
