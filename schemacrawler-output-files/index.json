@@ -36,6 +36,10 @@
       {
         "title": "Step 7 - Run JavaScript Against Schema Metadata",
         "text": "step7.md"
+      }, 
+      {
+        "title": "Step 8 - Run Python Against Schema Metadata",
+        "text": "step8.md"
       }     
     ],
     "finish": {
