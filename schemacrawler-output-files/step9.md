@@ -43,7 +43,7 @@ Save the file. First press `Esc`. Then type
 From the command-line, run:
 
 ```
-schemacrawler --server=sqlite --database=sc.db --info-level=standard --command=templat --template  tables.mustache --templating-language=python --output-file=./share/tables.mustache.txt
+schemacrawler --server=sqlite --database=sc.db --info-level=standard --command=template --template  tables.mustache --templating-language=mustache --output-file=./share/tables.mustache.txt
 ```{{execute}}
 
 You will notice the output from the Mustache template in the view above.
