@@ -21,6 +21,12 @@ Start the `vi` editor:
 vi tables.js
 ```{{execute}}
 
+Get into editing mode, type:
+
+```
+i
+```{{execute}}
+
 Copy and paste the following script into the new file:
 
 ```javascript
@@ -73,7 +79,7 @@ Save the file. First press `Esc`. Then type
 From the command-line, run:
 
 ```
-schemacrawler --server=sqlite --database=sc.db --info-level=standard --command=script --script share/tables.js --scripting-language=javascript
+schemacrawler --server=sqlite --database=sc.db --info-level=standard --command=script --script  tables.js --scripting-language=javascript --output-file=tables.js.txt
 ```{{execute}}
 
-You will the output from the JavaScript program.
+You will notice the output from the JavaScript program in the view above.
