@@ -3,5 +3,6 @@
 Run:
 
 ```
+cd ~
 ls -al
 ```{{execute}}

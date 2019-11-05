@@ -4,6 +4,14 @@
   "difficulty": "Beginner",
   "time": "1 minute",
   "details": {
+		"assets": {
+			"client": [
+				{
+					"file": "tables.*",
+					"target": "/home/scrapbook"
+				}
+			]
+		},
     "intro": {
       "text": "intro.md"
     },
