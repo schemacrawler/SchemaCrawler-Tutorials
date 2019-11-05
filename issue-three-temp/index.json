@@ -8,7 +8,7 @@
 			"client": [
 				{
 					"file": "tables.*",
-					"target": "/home/scrapbook"
+					"target": "~/"
 				}
 			]
 		},
