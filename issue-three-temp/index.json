@@ -4,14 +4,6 @@
   "difficulty": "Beginner",
   "time": "1 minute",
   "details": {
-		"assets": {
-			"client": [
-				{
-					"file": "tables.*",
-					"target": "~/"
-				}
-			]
-		},	
     "intro": {
       "text": "intro.md"
     },
@@ -19,7 +11,7 @@
       {
         "title": "Step 1 - Check Assets",
         "text": "step1.md"
-      }     
+      }
     ],
     "finish": {
       "text": "finish.md"
