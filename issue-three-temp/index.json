@@ -1,0 +1,34 @@
+{
+  "title": "Test for Issue #3",
+  "description": "Test for Issue #3",
+  "difficulty": "Beginner",
+  "time": "1 minute",
+  "details": {
+		"assets": {
+			"client": [
+				{
+					"file": "tables.*",
+					"target": "~/"
+				}
+			]
+		},	
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Step 1 - Check Assets",
+        "text": "step1.md"
+      }     
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
