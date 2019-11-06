@@ -5,7 +5,7 @@
   "time": "1 minute",
   "details": {
 		"assets": {
-			"client": [
+			"host01": [
 				{
 					"file": "tables.*",
 					"target": "~/"
