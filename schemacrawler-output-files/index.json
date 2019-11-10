@@ -4,6 +4,14 @@
   "difficulty": "Intermediate",
   "time": "20 minutes",
   "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "tables.*",
+          "target": "~/"
+        }
+      ]
+    },
     "intro": {
       "code": "scripts/env-init.sh",
       "text": "intro.md"
