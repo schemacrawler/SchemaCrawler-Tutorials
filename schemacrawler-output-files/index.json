@@ -8,7 +8,7 @@
       "host01": [
         {
           "file": "tables.*",
-          "target": "~/"
+          "target": "~/share"
         }
       ]
     },
