@@ -8,9 +8,6 @@ chown :100 /root/share
 chmod 777 /root/share
 chmod g+s /root/share
 
-# Move files
-mv /root/tables.* /root/share
-
 # Run Docker container
 docker run \
 -v /root/share:/home/schcrwlr/share \
