@@ -2,44 +2,44 @@
   "title": "SchemaCrawler - Introduction",
   "description": "Introduction to the SchemaCrawler Command-line",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "20 minutes",
   "details": {
     "intro": {
       "code": "scripts/env-init.sh",
-      "text": "intro.md"
+      "text": "steps/intro.md"
     },
     "steps": [
       {
         "title": "Step 1 - Run SchemaCrawler from the Command-line",
-        "text": "step1.md"
+        "text": "steps/step1.md"
       },
       {
         "title": "Step 2 - Get a List of Tables",
-        "text": "step2.md"
+        "text": "steps/step2.md"
       },
       {
         "title": "Step 3 - Get Details of Tables",
-        "text": "step3.md"
+        "text": "steps/step3.md"
       },
       {
         "title": "Step 4 - Limit Tables in Output",
-        "text": "step4.md"
+        "text": "steps/step4.md"
       },
       {
         "title": "Step 5 - Search for Tables",
-        "text": "step5.md"
+        "text": "steps/step5.md"
       },
       {
         "title": "Step 6 - Run Other Commands",
-        "text": "step6.md"
+        "text": "steps/step6.md"
       },
       {
         "title": "Step 7 - Find Related Tables",
-        "text": "step7.md"
+        "text": "steps/step7.md"
       }
     ],
     "finish": {
-      "text": "finish.md"
+      "text": "steps/finish.md"
     }
   },
   "environment": {
