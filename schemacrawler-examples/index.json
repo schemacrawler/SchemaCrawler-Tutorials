@@ -1,0 +1,39 @@
+{
+  "title": "SchemaCrawler - Examples",
+  "description": "How to download SchemaCrawler, and run the examples",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "*",
+          "target": "~/share"
+        }
+      ]
+    },
+    "intro": {
+      "text": "steps/intro.md"
+    },
+    "steps": [
+      {
+        "title": "Step 1 - Download SchemaCrawler",
+        "text": "steps/step1.md"
+      }, 
+      {
+        "title": "Step 2 - Download Supporting Software",
+        "text": "steps/step2.md"
+      }     
+    ],
+    "finish": {
+      "text": "steps/finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mPlease wait for the SchemaCrawler Docker image to start...\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
