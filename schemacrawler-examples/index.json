@@ -23,6 +23,18 @@
       {
         "title": "Step 2 - Download Supporting Software",
         "text": "steps/step2.md"
+      }, 
+      {
+        "title": "Step 3 - Start Database Server",
+        "text": "steps/step3.md"
+      }, 
+      {
+        "title": "Step 4 - Start File Server",
+        "text": "steps/step4.md"
+      }, 
+      {
+        "title": "Step 5 - Run an Example",
+        "text": "steps/step5.md"
       }     
     ],
     "finish": {
