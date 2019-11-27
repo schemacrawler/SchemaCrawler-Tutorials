@@ -14,8 +14,7 @@ Download additional software into the SchemaCrawler `lib/` folder, run:
 
 `./download.sh drivers`{{execute}} - for Oracle and IBM DB2 JDBC drivers  
 `./download.sh plugins`{{execute}} - for additional SchemaCrawler plug-ins  
-`./download.sh jackson`{{execute}} - for support of JSON ouput format 
-`./download.sh graphviz-java`{{execute}} - for a pure Java Gaphviz library to generate diagrams
+`./download.sh jackson`{{execute}} - for support of JSON ouput format
 
 Download additional software for SchemaCrawler scripting into the SchemaCrawler `lib/` folder, run:
 
@@ -28,3 +27,9 @@ Download additional software for SchemaCrawler templating into the SchemaCrawler
 `./download.sh velocity`{{execute}} - for Apache Velocity templating with SchemaCrawler
 `./download.sh mustache`{{execute}} - for Mustache templating with SchemaCrawler
 `./download.sh thymeleaf`{{execute}} - for Thymeleaf templating with SchemaCrawler
+
+## Install Graphviz
+
+Install [Graphviz](https://www.graphviz.org/) to assist with generating SchemaCrawler database diagrams, run:
+
+`sudo apt-get -y install graphviz ttf-freefont`{{execute}}
