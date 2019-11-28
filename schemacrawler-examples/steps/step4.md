@@ -16,3 +16,4 @@ Start the web server in the background, run:
 
 ## Open Browser for SchemaCrawler Examples
 
+Click on the "Examples Browser" tab. You will see the list of examples. To return to the home page, click the refresh button on the "Examples Browser" tab.
