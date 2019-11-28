@@ -4,14 +4,6 @@
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
-    "assets": {
-      "host01": [
-        {
-          "file": "*",
-          "target": "~/share"
-        }
-      ]
-    },
     "intro": {
       "text": "steps/intro.md"
     },
@@ -33,8 +25,16 @@
         "text": "steps/step4.md"
       }, 
       {
-        "title": "Step 5 - Run an Example",
+        "title": "Step 5 - Run SchemaCrawler Lint Example",
         "text": "steps/step5.md"
+      }, 
+      {
+        "title": "Step 6 - Run SchemaCrawler Diagram Example",
+        "text": "steps/step6.md"
+      }, 
+      {
+        "title": "Step 7 - Explore Other SchemaCrawler Examples",
+        "text": "steps/step7.md"
       }     
     ],
     "finish": {
@@ -45,7 +45,6 @@
     "showdashboard": true,
     "dashboard": "Examples Browser",
     "uilayout": "terminal-iframe",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
