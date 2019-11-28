@@ -12,4 +12,4 @@ From the SchemaCrawler Interactive Shell, run:
 execute --command=serialize --serialization-format=yaml --output-file=./share/schema.yaml
 ```{{execute}}
 
-You will notice the output file generated on the host system, in the view above. Open the output file in the editor to view the contents.
+You will notice the output file generated on the host system, in the "File Browser" view. Open the output file to view the contents.

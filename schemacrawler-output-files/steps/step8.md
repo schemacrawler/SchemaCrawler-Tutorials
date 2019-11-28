@@ -12,4 +12,4 @@ From the command-line, run:
 execute --command=script --script=./share/tables.py --scripting-language=python --output-file=./share/tables.py.txt
 ```{{execute}}
 
-You will notice the output from the Python program in the view above. Open `./share/tables.py` in the view above to see the contents.
+You will notice the output file generated on the host system, in the "File Browser" view. Open the output file to view the contents. Open `./share/tables.py` to see the script.

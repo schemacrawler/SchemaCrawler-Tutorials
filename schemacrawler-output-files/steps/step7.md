@@ -12,4 +12,4 @@ From the SchemaCrawler Interactive Shell prompt, run:
 execute --command=script --script=./share/tables.js --scripting-language=javascript --output-file=./share/tables.js.txt
 ```{{execute}}
 
-You will notice the output from the JavaScript program in the view above. Open `./share/tables.js` in the view above to see the contents.
+You will notice the output file generated on the host system, in the "File Browser" view. Open the output file to view the contents. Open `./share/tables.js` to see the script.

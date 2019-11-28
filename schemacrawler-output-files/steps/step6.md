@@ -12,6 +12,6 @@ From the SchemaCrawler Interactive Shell, run:
 execute --command=schema --output-file=./share/schema.png
 ```{{execute}}
 
-You will notice the output file generated on the host system, in the view above.
+You will notice the output file generated on the host system, in the "File Browser" view. Open the output file to view it.
 
 You can generate database diagrams in other formats too, such as JPG or PDF, by specifying a different file extension.
