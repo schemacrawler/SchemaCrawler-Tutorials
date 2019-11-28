@@ -8,6 +8,9 @@ chown :100 /root/share
 chmod 777 /root/share
 chmod g+s /root/share
 
+# Start a webserver at the root
+python3 -m http.server 80 > ~/webserver.log 2>&1 &
+
 # Run Docker container
 docker run \
 -v /root/share:/home/schcrwlr/share \
