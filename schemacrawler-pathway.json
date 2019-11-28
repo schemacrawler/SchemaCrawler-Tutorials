@@ -1,0 +1,27 @@
+{
+    "title": "SchemaCrawler Course",
+    "description": "Complete SchemaCrawler training",
+    "courses": [
+      {
+        "course_id": "schemacrawler",
+				"title": "SchemaCrawler - Introduction",
+				"description": "Introduction to the SchemaCrawler Command-line"
+      },
+      {
+        "course_id": "schemacrawler-shell",
+				"title": "SchemaCrawler - Introduction to the Interactive Shell",
+				"description": "Introduction to the SchemaCrawler Interactive Shell"
+      },
+      {
+        "course_id": "schemacrawler-output-files",
+				"title": "SchemaCrawler - Generating Output Files",
+				"description": "How to generate database schema output in various formats with SchemaCrawler"
+      },
+      {
+        "course_id": "schemacrawler-examples",
+				"title": "SchemaCrawler - Examples",
+				"description": "How to download SchemaCrawler, and run the examples"
+      }			
+    ]
+  }
+  
