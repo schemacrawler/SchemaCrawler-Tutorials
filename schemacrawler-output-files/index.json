@@ -59,7 +59,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboard": "File Browser",
+    "uilayout": "terminal-iframe",
     "uimessage1": "\u001b[32mPlease wait for the SchemaCrawler Docker image to start...\u001b[m\r\n"
   },
   "backend": {
