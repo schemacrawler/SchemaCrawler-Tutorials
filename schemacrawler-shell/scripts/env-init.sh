@@ -10,6 +10,7 @@ chmod g+s /root
 # Run Docker container
 docker run \
 -v /root:/home/schcrwlr/share \
+--name schemacrawler \
 --rm -i -t \
 --entrypoint=/bin/bash \
 schemacrawler/schemacrawler

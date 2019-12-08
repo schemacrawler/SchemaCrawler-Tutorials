@@ -15,6 +15,7 @@ python3 -m http.server 80 > ~/webserver.log 2>&1 &
 # Run Docker container
 docker run \
 -v /root/share:/home/schcrwlr/share \
+--name schemacrawler \
 --rm -i -t \
 --entrypoint=/bin/bash \
 schemacrawler/schemacrawler
