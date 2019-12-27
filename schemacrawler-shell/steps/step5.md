@@ -21,6 +21,11 @@ load --info-level=standard
 
 `grep --grep-columns=.*Data`{{execute}}
 
+You can use [mode modifiers](https://www.regular-expressions.info/refmodifiers.html) for case-insensitive matches: 
+
+`grep --grep-columns=(?i).*data`{{execute}}
+
+
 ## Run the Schema Command
 
 From the SchemaCrawler Interactive Shell, run the `schema` command:

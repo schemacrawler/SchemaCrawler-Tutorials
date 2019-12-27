@@ -10,3 +10,7 @@ names ahead of time.
 Grep for tables, by running:
 
 `schemacrawler --server=sqlite --database=sc.db --grep-columns=.*Data --no-info --info-level=standard --command=schema`{{execute}}
+
+You can use [mode modifiers](https://www.regular-expressions.info/refmodifiers.html) for case-insensitive matches, by running: 
+
+`schemacrawler --server=sqlite --database=sc.db --grep-columns='(?i).*data' --no-info --info-level=standard --command=schema`{{execute}}
