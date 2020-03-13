@@ -8,8 +8,8 @@ This step shows you how to download SchemaCrawler, and run the examples.
 
 Download the latest SchemaCrawler release, by running:
 
-`wget -N -q --show-progress  https://github.com/schemacrawler/SchemaCrawler/releases/download/v16.4.1/schemacrawler-16.4.1-distribution.zip`{{execute}}
+`wget -N -q --show-progress  https://github.com/schemacrawler/SchemaCrawler/releases/download/v16.5.1/schemacrawler-16.5.1-distribution.zip`{{execute}}
 
 and unzip it by running:
 
-`unzip -q -u schemacrawler-16.4.1-distribution.zip`{{execute}}
+`unzip -q -u schemacrawler-16.5.1-distribution.zip`{{execute}}
