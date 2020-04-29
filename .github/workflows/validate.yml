@@ -1,6 +1,11 @@
 name: Validate
 
-on: push
+on:
+  push: # Do not run, since the Katacoda CLI is bugggy
+    branches-ignore:
+      - '**'
+    tags-ignore:
+      - '**'
 
 jobs:
   build:
@@ -11,7 +16,7 @@ jobs:
 # SETUP BUILD ENVIRONMENT
     - id: checkout-code
       name: Checkout code
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
     - id: install-katacoda-cli
       name: Install Katacoda CLI
       run: |
