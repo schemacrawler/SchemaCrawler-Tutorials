@@ -16,7 +16,7 @@ jobs:
 # SETUP BUILD ENVIRONMENT
     - id: checkout-code
       name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@latest
     - id: install-katacoda-cli
       name: Install Katacoda CLI
       run: |
