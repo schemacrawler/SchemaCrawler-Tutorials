@@ -2,10 +2,10 @@ name: Validate
 
 on:
   push: # Do not run, since the Katacoda CLI is bugggy
-    branches-ignore:
-      - '**'
-    tags-ignore:
-      - '**'
+    # branches-ignore:
+    #   - '**'
+    # tags-ignore:
+    #   - '**'
 
 jobs:
   build:
@@ -16,22 +16,25 @@ jobs:
 # SETUP BUILD ENVIRONMENT
     - id: checkout-code
       name: Checkout code
-      uses: actions/checkout@latest
-    - id: install-katacoda-cli
-      name: Install Katacoda CLI
-      run: |
-        sudo npm i katacoda-cli --global
+      uses: actions/checkout@v2        
     - id: show-environment
       name: Show environment
       run: |
         echo github.repository: ${{ github.repository }}
         echo github.ref: ${{ github.head_ref || github.ref }}
         echo github.sha: ${{ github.sha }}
-        echo github.workspace: ${{ github.workspace }}
-        katacoda --version
+        echo github.workspace: ${{ github.workspace }}        
 
 # BUILD AND TEST
-    - id: validate
-      name: Validate Katacoda scenarios
+    - id: validate-markdown
+      name: Validate Katacoda Markdown
       run: |
+        sudo gem install mdl
+        mdl ${{ github.workspace }}
+    - id: validate-katacoda
+      name: Validate Katacoda scenarios
+      if: false
+      run: |
+        sudo npm i katacoda-cli --global
+        katacoda --version
         katacoda validate:all --repo ${{ github.workspace }}
