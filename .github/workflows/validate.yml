@@ -1,16 +1,12 @@
 name: Validate
 
-on:
-  push: # Do not run, since the Katacoda CLI is bugggy
-    # branches-ignore:
-    #   - '**'
-    # tags-ignore:
-    #   - '**'
+on: push
 
 jobs:
   build:
     name: Validate
     runs-on: ubuntu-latest
+    if: false # Do not build, since the Katacoda command-line is buggy, and does not take steps in a separate folder
     steps:
 
 # SETUP BUILD ENVIRONMENT
@@ -33,7 +29,6 @@ jobs:
         mdl ${{ github.workspace }}
     - id: validate-katacoda
       name: Validate Katacoda scenarios
-      if: false
       run: |
         sudo npm i katacoda-cli --global
         katacoda --version
