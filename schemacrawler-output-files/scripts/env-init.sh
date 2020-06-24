@@ -18,4 +18,4 @@ docker run \
 --name schemacrawler \
 --rm -i -t \
 --entrypoint=/bin/bash \
-schemacrawler/schemacrawler
+schemacrawler/schemacrawler:v16.8.1
