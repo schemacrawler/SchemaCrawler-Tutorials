@@ -17,6 +17,7 @@ MD013:
   line_length: 808            # Line length
 MD026:                        # List of not allowed
   punctuation: ".,;:!。，；:"
+MD033: false                  # Inline HTML
 MD040: false                  # Fenced code blocks should have a language specified
 MD041: false                  # First line in file should be a top level heading
 
