@@ -9,7 +9,7 @@ chmod 777 /root/share
 chmod g+s /root/share
 
 # Start a webserver at the root
-cd /root/share
+cd /root/share || exit
 python3 -m http.server 80 > ~/webserver.log 2>&1 &
 
 # Run Docker container
@@ -18,4 +18,4 @@ docker run \
 --name schemacrawler \
 --rm -i -t \
 --entrypoint=/bin/bash \
-schemacrawler/schemacrawler:v16.7.2
+schemacrawler/schemacrawler:v16.9.2
