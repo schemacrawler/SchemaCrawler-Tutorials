@@ -26,6 +26,5 @@ Run:
 
 ```
 connect --server=sqlite --database=sc.db
-show --no-info
 load --info-level=standard 
 ```{{execute}}

@@ -7,10 +7,6 @@ will ignore all other tables.
 
 -----
 
-## Show No Information
-
-`show --no-info`{{execute}}
-
 ## Limit Tables Under Consideration
 
 `limit --tables=.*Authors`{{execute}}
@@ -25,4 +21,4 @@ Reload database metadata with the limit in place, run:
 
 From the SchemaCrawler Interactive Shell, run the `details` command:
 
-`execute --command=details`{{execute}}
+`execute --command=details --no-info`{{execute}}
