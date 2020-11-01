@@ -13,7 +13,6 @@ Use the `sweep` command to reset the SchemaCrawler Interactive Shell, and reconn
 ```
 sweep
 connect --server=sqlite --database=sc.db
-show --no-info
 ```{{execute}}
 
 ## Grep for Tables
@@ -34,5 +33,5 @@ From the SchemaCrawler Interactive Shell, load the metadata, and run the `brief`
 
 ```
 load --info-level=standard 
-execute --command=brief
+execute --command=brief --no-info
 ```{{execute}}
