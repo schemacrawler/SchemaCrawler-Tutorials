@@ -8,7 +8,7 @@ This step shows you how to view files for the SchemaCrawler examples.
 
 Change to the examples directory, run:
 
-`cd ~/schemacrawler-16.11.6-distribution/examples`{{execute}}
+`cd ~/schemacrawler-16.11.7-distribution/examples`{{execute}}
 
 Start the web server in the background, run:
 
