@@ -8,7 +8,7 @@ This step shows you how to download supporting software for SchemaCrawler.
 
 Change to the downloader directory, run:
 
-`cd schemacrawler-16.12.3-distribution/_downloader`{{execute}}
+`cd schemacrawler-16.14.1-distribution/_downloader`{{execute}}
 
 Download additional software into the SchemaCrawler `lib/` folder, run:
  
