@@ -1,5 +1,3 @@
-# Grep for Tables
-
 This step shows you how to search table metadata. Grep options allow you
 to report all tables that contain columns whose fully qualified name
 matches a regular expression pattern. You do not need to know the table
