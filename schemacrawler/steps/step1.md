@@ -1,4 +1,4 @@
------
+# Get Started with the Command-line
 
 This step gets you started with the SchemaCrawler command-line, by requesting command-line help.
 
