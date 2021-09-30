@@ -15,4 +15,4 @@ Start the database server in the background, run:
 
 ## Open Browser for SchemaCrawler Examples
 
-Open the ["Examples Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com) to see the list of examples. To return to the home page, click the refresh button on the "Examples Browser" tab.
+Open the ["Examples Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com) to see the list of examples and generated output files.

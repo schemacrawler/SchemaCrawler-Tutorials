@@ -26,8 +26,7 @@ Download additional software for SchemaCrawler templating into the SchemaCrawler
 
 Install [Graphviz](https://www.graphviz.org/) to assist with generating SchemaCrawler database diagrams, run:
 
-`sudo apt-get -qq update`{{execute}}
-`sudo apt-get -q -y install graphviz ttf-freefont`{{execute}}
+`sudo apt-get -q -y install graphviz fonts-freefont-ttf`{{execute}}
 
 Verify that Graphviz is installed, run:
 

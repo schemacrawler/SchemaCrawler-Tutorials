@@ -5,8 +5,7 @@
   "time": "60 minutes",
   "details": {
     "intro": {
-      "text": "steps/intro.md",
-      "courseData": "scripts/file-browser-init.sh"
+      "text": "steps/intro.md"
     },
     "steps": [
       {
@@ -15,23 +14,24 @@
       },
       {
         "title": "Step 2 - Download Supporting Software",
-        "text": "steps/step2.md"
+        "text": "steps/step2.md",
+        "courseData": "scripts/file-browser-init.sh"
       },
       {
         "title": "Step 3 - Start Database Server",
         "text": "steps/step3.md"
       },
       {
-        "title": "Step 5 - Run SchemaCrawler Lint Example",
+        "title": "Step 4 - Run SchemaCrawler Lint Example",
+        "text": "steps/step4.md"
+      },
+      {
+        "title": "Step 5 - Run SchemaCrawler Diagram Example",
         "text": "steps/step5.md"
       },
       {
-        "title": "Step 6 - Run SchemaCrawler Diagram Example",
+        "title": "Step 6 - Explore Other SchemaCrawler Examples",
         "text": "steps/step6.md"
-      },
-      {
-        "title": "Step 7 - Explore Other SchemaCrawler Examples",
-        "text": "steps/step7.md"
       }
     ],
     "finish": {
