@@ -1,5 +1,3 @@
------
-
 This step shows you how to run a SchemaCrawler example. We will run the diagram example.
 
 -----
