@@ -15,7 +15,7 @@
       {
         "title": "Step 2 - Download Supporting Software",
         "text": "steps/step2.md",
-        "courseData": "file-browser-init.sh"
+        "courseData": "scripts/file-browser-init.sh"
       },
       {
         "title": "Step 3 - Start Database Server",
