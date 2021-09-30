@@ -28,3 +28,7 @@ Install [Graphviz](https://www.graphviz.org/) to assist with generating SchemaCr
 
 `sudo apt-get -qq update`{{execute}}
 `sudo apt-get -q -y install graphviz ttf-freefont`{{execute}}
+
+Verify that Graphviz is installed, run:
+
+`dot -V`{{execute}}
