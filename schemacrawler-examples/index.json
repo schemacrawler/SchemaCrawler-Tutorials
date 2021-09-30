@@ -5,7 +5,8 @@
   "time": "60 minutes",
   "details": {
     "intro": {
-      "text": "steps/intro.md"
+      "text": "steps/intro.md",
+      "courseData": "scripts/file-browser-init.sh"
     },
     "steps": [
       {
@@ -14,8 +15,7 @@
       },
       {
         "title": "Step 2 - Download Supporting Software",
-        "text": "steps/step2.md",
-        "courseData": "scripts/file-browser-init.sh"
+        "text": "steps/step2.md"
       },
       {
         "title": "Step 3 - Start Database Server",
@@ -39,11 +39,9 @@
     }
   },
   "environment": {
-    "showdashboard": true,
-    "dashboard": "Examples Browser",
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu:2004"
   }
 }
