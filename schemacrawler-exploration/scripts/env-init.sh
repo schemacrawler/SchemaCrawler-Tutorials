@@ -12,7 +12,7 @@ chmod g+s /root/share
 python3 -m http.server 80 --directory /root/share > ~/webserver.log 2>&1 &
 
 # Run Docker compose with SchemaCrawler and the AdventureWorks database
-docker-compose -f adventureworks.yml up -d
+docker-compose -f adventureworks.yml --compatibility up -d
 echo Starting database server. Please wait.
 sleep 30
 echo Started.
