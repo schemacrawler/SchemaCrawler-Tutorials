@@ -12,7 +12,8 @@ Start the SchemaCrawler Interactive Shell, by running:
 
 ```
 schemacrawler --shell
-```{{execute}}
+```
+{{execute}}
 
 ## Get Help
 
