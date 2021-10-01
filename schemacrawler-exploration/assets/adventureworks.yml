@@ -5,16 +5,12 @@ services:
   adventureworks:
     image: phillipsj/adventureworks
     container_name: adventureworks
-    ports:
-      - target: 1433
-        published: 1433
-        protocol: tcp
-        mode: host
+    expose:
+      - "1433"
     environment:
       ACCEPT_EULA: "Y"
     mem_limit: 4g
     mem_reservation: 2g
-    weight: 700
 
   schemacrawler:
     image: schemacrawler/schemacrawler
