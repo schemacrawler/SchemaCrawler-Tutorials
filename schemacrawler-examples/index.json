@@ -1,4 +1,5 @@
 {
+  "noindex": true,
   "title": "SchemaCrawler - Examples",
   "description": "How to download SchemaCrawler, and run the examples",
   "difficulty": "Intermediate",

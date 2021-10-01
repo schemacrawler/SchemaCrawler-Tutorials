@@ -1,4 +1,4 @@
-This step shows you how to download SchemaCrawler, and run the examples.
+This scenario shows you how to download SchemaCrawler, and run the examples.
 
 -----
 

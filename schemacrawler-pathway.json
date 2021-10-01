@@ -21,7 +21,11 @@
         "course_id": "schemacrawler-examples",
 				"title": "SchemaCrawler - Examples",
 				"description": "How to download SchemaCrawler, and run the examples"
-      }			
+      },
+      {
+        "course_id": "schemacrawler-exploration",
+        "title": "[Under Development] SchemaCrawler - Explore a New Database",
+        "description": "How to explore a database you are not familiar with using SchemaCrawler"
+      }
     ]
   }
-  

@@ -1,4 +1,5 @@
 {
+  "noindex": true,
   "title": "SchemaCrawler - Introduction",
   "description": "Introduction to the SchemaCrawler Command-line",
   "difficulty": "Beginner",
