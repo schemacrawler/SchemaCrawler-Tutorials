@@ -12,7 +12,12 @@ services:
         mode: host
     environment:
       ACCEPT_EULA: "Y"
-      SA_PASSWORD: Schem#Crawl3r
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 2G
 
   schemacrawler:
     image: schemacrawler/schemacrawler
