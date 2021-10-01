@@ -2,8 +2,6 @@ This step shows you how to export database schema metadata to an HTML file. Sche
 
 -----
 
-## Generate HTML Schema Documentation
-
 From the SchemaCrawler Interactive Shell, run:
 
 `execute --command=schema --output-file=./share/schema.html`{{execute}}

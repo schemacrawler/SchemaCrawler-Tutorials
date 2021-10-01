@@ -2,8 +2,6 @@ This step shows you how to run a JavaScript program using database metadata prov
 
 -----
 
-## Execute a JavaScript Script
-
 From the SchemaCrawler Interactive Shell prompt, run:
 
 `execute --command=script --script=./share/tables.js --scripting-language=javascript --output-file=./share/tables.js.txt`{{execute}}

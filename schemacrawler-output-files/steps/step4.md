@@ -2,8 +2,6 @@ This step shows you how to export database schema metadata to a YAML file. Schem
 
 -----
 
-## Generate a YAML Representation of Schema Metadata
-
 From the SchemaCrawler Interactive Shell, run:
 
 `execute --command=serialize --serialization-format=yaml --output-file=./share/schema.yaml`{{execute}}

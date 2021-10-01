@@ -2,8 +2,6 @@ This step shows you how to run a Python program using database metadata provided
 
 -----
 
-## Execute a Python Script
-
 From the command-line, run:
 
 `execute --command=script --script=./share/tables.py --scripting-language=python --output-file=./share/tables.py.txt`{{execute}}

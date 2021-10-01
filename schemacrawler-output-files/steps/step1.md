@@ -6,7 +6,7 @@ This step show you how to start the SchemaCrawler Interactive Shell.
 
 ## Open File Browser for SchemaCrawler Output Files
 
-Open the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com) to see the list of input and generated output files.
+Open the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com) to see the list of input and generated output files. Hit refresh on the index each time you generate a new file.
 
 
 ## Start the SchemaCrawler Interactive Shell
@@ -17,10 +17,7 @@ Start the SchemaCrawler Interactive Shell, by running:
 
 `schemacrawler --shell`{{execute}}
 
-
-## Load Metadata
-
-Run:
+Load database metadata for a SQLite database, run:
 
 ```
 connect --server=sqlite --database=sc.db

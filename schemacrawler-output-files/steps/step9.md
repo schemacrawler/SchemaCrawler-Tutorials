@@ -2,8 +2,6 @@ This step shows you how to create out using a Mustache template with database me
 
 -----
 
-## Render a Mustache Template
-
 From the command-line, run:
 
 `execute --command=template --template=./share/tables.mustache --templating-language=mustache --output-file=./share/tables.mustache.txt`{{execute}}

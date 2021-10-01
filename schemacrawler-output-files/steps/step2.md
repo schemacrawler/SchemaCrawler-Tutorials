@@ -2,8 +2,6 @@ This step shows you how to export database schema metadata to a text file. Schem
 
 -----
 
-## Run the Execute Command Specifying an Output File
-
 From the SchemaCrawler Interactive Shell, run:
 
 `execute --command=schema --no-info --output-file=./share/schema.txt`{{execute}}

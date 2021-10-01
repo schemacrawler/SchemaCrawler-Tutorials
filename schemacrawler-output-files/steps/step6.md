@@ -2,8 +2,6 @@ This step shows you how to export database schema metadata to diagram files. Sch
 
 -----
 
-## Generate a Schema Diagram
-
 From the SchemaCrawler Interactive Shell, run:
 
 `execute --command=schema --output-file=./share/schema.png`{{execute}}

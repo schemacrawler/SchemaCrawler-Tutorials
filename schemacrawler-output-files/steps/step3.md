@@ -2,8 +2,6 @@ This step shows you how to export database schema metadata to a JSON file. Schem
 
 -----
 
-## Generate a JSON Representation of Schema Metadata
-
 From the SchemaCrawler Interactive Shell, run:
 
 `execute --command=serialize --serialization-format=json --output-file=./share/schema.json`{{execute}}
