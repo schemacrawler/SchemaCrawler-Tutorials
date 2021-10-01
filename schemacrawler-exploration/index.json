@@ -1,0 +1,36 @@
+{
+  "title": "SchemaCrawler - Explore a New Database",
+  "description": "How to explore a database you are not familiar with using SchemaCrawler",
+  "difficulty": "Intermediate",
+  "time": "30 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "adventureworks.yml",
+          "target": "~/"
+        }
+      ]
+    },
+    "intro": {
+      "code": "scripts/env-init.sh",
+      "text": "steps/intro.md"
+    },
+    "steps": [
+      {
+        "title": "Step 1 - Run the SchemaCrawler Interactive Shell",
+        "text": "steps/step1.md"
+      }
+    ],
+    "finish": {
+      "text": "steps/finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mPlease wait for the SchemaCrawler Docker image to start...\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
