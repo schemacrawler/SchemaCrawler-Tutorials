@@ -1,14 +1,12 @@
------
-
 This step show you how to start the SchemaCrawler Interactive Shell.
 
 > Please wait for the SchemaCrawler Docker container to start. Then, move on to the steps.
 
 -----
 
-# Get Familiar with the File Browser
+## Open File Browser for SchemaCrawler Output Files
 
-Click on the "File Browser" tab. You will see the list of files and directories. Files created and used in this tutorial will be in this folder. To return to the home page, click the refresh button on the "File Browser" tab.
+Open the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com) to see the list of input and generated output files.
 
 
 ## Start the SchemaCrawler Interactive Shell
@@ -26,5 +24,5 @@ Run:
 
 ```
 connect --server=sqlite --database=sc.db
-load --info-level=standard 
+load --info-level=standard
 ```{{execute}}
