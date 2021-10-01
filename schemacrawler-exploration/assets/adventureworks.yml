@@ -1,4 +1,4 @@
-version: '3.7'
+version: '2.4'
 
 services:
 
@@ -12,12 +12,9 @@ services:
         mode: host
     environment:
       ACCEPT_EULA: "Y"
-    deploy:
-      resources:
-        limits:
-          memory: 4G
-        reservations:
-          memory: 2G
+    mem_limit: 4g
+    mem_reservation: 2g
+    weight: 700
 
   schemacrawler:
     image: schemacrawler/schemacrawler
