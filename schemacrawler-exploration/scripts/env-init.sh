@@ -13,6 +13,6 @@ python3 -m http.server 80 --directory /root/share > ~/webserver.log 2>&1 &
 
 # Run Docker compose with SchemaCrawler and the AdventureWorks database
 docker-compose -f adventureworks.yml up -d
-echo Starting database server. Please wait for a few minutes.
-sleep 120
+echo Starting database server. Please wait.
+sleep 30
 echo Started.

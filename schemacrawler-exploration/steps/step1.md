@@ -24,8 +24,8 @@ schemacrawler \
 --database AdventureWorks2019 \
 --schemas AdventureWorks2019\.[A-Z].* \
 --user SA \
---password ThisIsNotASecurePassword123 \\
---table-types TABLE
+--password ThisIsNotASecurePassword123 \
+--table-types TABLE \
 --info-level minimum \
--c list
+--command list
 ```{{execute}}
