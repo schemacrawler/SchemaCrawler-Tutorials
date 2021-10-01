@@ -1,7 +1,5 @@
------
-
-This step shows you how to search table metadata. Grep options allow you 
-to report all tables that contain columns whose fully qualified name 
+This step shows you how to search table metadata. Grep options allow you
+to report all tables that contain columns whose fully qualified name
 matches a regular expression pattern. You do not need to know the table
 names ahead of time.
 
@@ -21,7 +19,7 @@ load --info-level=standard
 
 `grep --grep-columns=.*Data`{{execute}}
 
-You can use [mode modifiers](https://www.regular-expressions.info/refmodifiers.html) for case-insensitive matches: 
+You can use [mode modifiers](https://www.regular-expressions.info/refmodifiers.html) for case-insensitive matches:
 
 `grep --grep-columns=(?i).*data`{{execute}}
 

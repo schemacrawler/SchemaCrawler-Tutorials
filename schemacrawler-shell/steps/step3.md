@@ -1,5 +1,3 @@
------
-
 This step shows you how to get table details from the database.
 
 -----
