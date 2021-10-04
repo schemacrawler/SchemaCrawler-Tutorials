@@ -13,11 +13,4 @@ Open the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].enviro
 
 Download a SQLite version of the [Sakila database](https://dev.mysql.com/doc/sakila/en/), run:
 
-`wget -N -q --show-progress -O share/sakila.db https://github.com/ivanceras/sakila/raw/master/sqlite-sakila-db/sakila.db`{{execute}}
-
-
-## Start SchemaCrawler
-
-Start SchemaCrawler bash with:
-
-`docker exec -it schemacrawler /bin/bash`{{execute}}
+`wget https://github.com/ivanceras/sakila/raw/master/sqlite-sakila-db/sakila.db`{{execute}}

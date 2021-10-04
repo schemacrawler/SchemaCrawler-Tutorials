@@ -13,6 +13,10 @@
       {
         "title": "Step 1 - Setup SchemaCrawler and the Database",
         "text": "steps/step1.md"
+      },
+      {
+        "title": "Step 2 - Use SchemaCrawler to List Tables",
+        "text": "steps/step2.md"
       }
     ],
     "finish": {
