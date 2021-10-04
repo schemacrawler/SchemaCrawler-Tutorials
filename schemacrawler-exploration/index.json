@@ -17,6 +17,10 @@
       {
         "title": "Step 2 - Use SchemaCrawler to List Tables",
         "text": "steps/step2.md"
+      },
+      {
+        "title": "Step 3 - Get Details of the 'film' Table",
+        "text": "steps/step3.md"
       }
     ],
     "finish": {
