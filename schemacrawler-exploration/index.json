@@ -1,25 +1,17 @@
 {
   "noindex": true,
-  "title": "[Under Development] SchemaCrawler - Explore a New Database",
-  "description": "How to explore a database you are not familiar with using SchemaCrawler",
+  "title": "[Under Development] SchemaCrawler - Explore an Unknown Database",
+  "description": "How to use SchemaCrawler to explore an unknown database",
   "difficulty": "Intermediate",
   "time": "30 minutes",
   "details": {
-    "assets": {
-      "host01": [
-        {
-          "file": "adventureworks.yml",
-          "target": "~/"
-        }
-      ]
-    },
     "intro": {
       "code": "scripts/env-init.sh",
       "text": "steps/intro.md"
     },
     "steps": [
       {
-        "title": "Step 1 - Run the SchemaCrawler Interactive Shell",
+        "title": "Step 1 - Setup SchemaCrawler and the Database",
         "text": "steps/step1.md"
       }
     ],
