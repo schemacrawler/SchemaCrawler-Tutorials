@@ -1,4 +1,4 @@
-Get all possible details of the film table.
+Get all possible details of the "film" table.
 
 -----
 
