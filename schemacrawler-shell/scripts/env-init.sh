@@ -7,6 +7,9 @@ chown :100 /root
 chmod 777 /root
 chmod g+s /root
 
+# Start a webserver where output files will be created
+python3 -m http.server 80 --directory /root/share > ~/webserver.log 2>&1 &
+
 # Run Docker container
 docker run \
 -v /root:/home/schcrwlr/share \
