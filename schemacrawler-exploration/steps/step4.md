@@ -35,7 +35,7 @@ schemacrawler \
 
 In the diagram, you will notice an extra table, "film_text" that has a "film_id" column, but no relationship with the other tables. SchemaCrawler can analyze database schema metadata, and guess at relationships using common column naming patterns. It can show these inferred relationships as "weak associations".
 
-To show weak associations, use `--weak-associations`, run:
+To show weak associations, use "--weak-associations", run:
 
 ```
 schemacrawler \
