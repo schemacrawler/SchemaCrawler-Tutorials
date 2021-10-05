@@ -14,10 +14,10 @@ schemacrawler \
 --no-info \
 --info-level minimum \
 --command count \
---grep-columns .*\.film_id
+--grep-tables film.*
 ```{{execute}}
 
-Note that you only need the minimum information level for counts.
+Note that you only need the minimum information level for counts, since we are not using "--grep-columns".
 
 Next, get a dump of the contents of the "film" table in an HTML file, run:
 
