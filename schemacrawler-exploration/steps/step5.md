@@ -10,7 +10,7 @@ Find database schema design issues with SchemaCrawler lint, run:
 
 ```
 schemacrawler \
---url "jdbc:sqlite:share/sakila.db" \
+--url "jdbc:sqlite:sakila.db" \
 --no-info \
 --info-level standard \
 --command lint \

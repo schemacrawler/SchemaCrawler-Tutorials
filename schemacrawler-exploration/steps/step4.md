@@ -8,7 +8,7 @@ Get children tables, run:
 
 ```
 schemacrawler \
---url "jdbc:sqlite:share/sakila.db" \
+--url "jdbc:sqlite:sakila.db" \
 --info-level standard \
 --command schema \
 --grep-tables film \
@@ -26,7 +26,7 @@ Find all tables with a "film_id" column, using "--grep-columns", run:
 
 ```
 schemacrawler \
---url "jdbc:sqlite:share/sakila.db" \
+--url "jdbc:sqlite:sakila.db" \
 --info-level standard \
 --command schema \
 --grep-columns .*\.film_id \
@@ -39,7 +39,7 @@ To show weak associations, use `--weak-associations`, run:
 
 ```
 schemacrawler \
---url "jdbc:sqlite:share/sakila.db" \
+--url "jdbc:sqlite:sakila.db" \
 --info-level standard \
 --command schema \
 --grep-columns .*\.film_id \
