@@ -16,4 +16,4 @@ docker run \
 --name schemacrawler \
 --rm -i -t \
 --entrypoint=/bin/bash \
-schemacrawler/schemacrawler:v16.15.7
+schemacrawler/schemacrawler:v16.15.8

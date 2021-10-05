@@ -1,6 +1,6 @@
 {
   "noindex": true,
-  "title": "[Under Development] SchemaCrawler - Explore an Unknown Database",
+  "title": "SchemaCrawler - Explore Sakila",
   "description": "How to use SchemaCrawler to explore an unknown database",
   "difficulty": "Intermediate",
   "time": "30 minutes",
@@ -21,6 +21,14 @@
       {
         "title": "Step 3 - Get Details of the 'film' Table",
         "text": "steps/step3.md"
+      },
+      {
+        "title": "Step 4 - Explore Relationships of the 'film' Table",
+        "text": "steps/step4.md"
+      },
+      {
+        "title": "Step 5 - Find Schema Design Issues",
+        "text": "steps/step5.md"
       }
     ],
     "finish": {
