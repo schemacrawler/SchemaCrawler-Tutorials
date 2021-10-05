@@ -29,6 +29,10 @@
       {
         "title": "Step 5 - Find Schema Design Issues",
         "text": "steps/step5.md"
+      },
+      {
+        "title": "Step 6 - Explore Data",
+        "text": "steps/step6.md"
       }
     ],
     "finish": {

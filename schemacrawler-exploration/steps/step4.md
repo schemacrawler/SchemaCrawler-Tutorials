@@ -16,7 +16,8 @@ schemacrawler \
 --output-file share/film-table-children.pdf
 ```{{execute}}
 
-Refresh the "File Browser", and view the generated PDF file.
+Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated PDF file.
+
 
 ## Find Tables With a "film_id" Column
 
@@ -47,4 +48,5 @@ schemacrawler \
 --output-file share/film_table_weak_associations.pdf
 ```{{execute}}
 
-Weak associations are drawn in dotted lines, to columns with unique constraints.
+Weak associations are drawn in dotted lines, to columns with unique constraints. Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated PDF file.
+
