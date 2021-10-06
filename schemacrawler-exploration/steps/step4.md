@@ -31,7 +31,7 @@ schemacrawler \
 --info-level standard \
 --command schema \
 --grep-columns .*\.film_id \
---output-file share/film_id_tables.pdf
+--output-file share/film_id-tables.pdf
 ```{{execute}}
 
 In the diagram, you will notice an extra table, "film_text" that has a "film_id" column, but no relationship with the other tables. SchemaCrawler can analyze database schema metadata, and guess at relationships using common column naming patterns. It can show these inferred relationships as "weak associations".
@@ -45,7 +45,7 @@ schemacrawler \
 --command schema \
 --grep-columns .*\.film_id \
 --weak-associations \
---output-file share/film_table_weak_associations.pdf
+--output-file share/film-table-weak-associations.pdf
 ```{{execute}}
 
 Weak associations are drawn in dotted lines, to columns with unique constraints. Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated PDF file.
