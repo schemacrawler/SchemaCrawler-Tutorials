@@ -30,7 +30,7 @@ schemacrawler \
 --output-file share/film-data.html
 ```{{execute}}
 
-Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated HTML file.
+Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated HTML file.
 
 
 ## Export Database Schema Metadata Into HTML
@@ -50,4 +50,4 @@ schemacrawler \
 --output-file share/film-table.html
 ```{{execute}}
 
-Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated HTML file.
+Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated HTML file.

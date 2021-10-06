@@ -48,5 +48,7 @@ schemacrawler \
 --output-file share/film-table-weak-associations.pdf
 ```{{execute}}
 
-Weak associations are drawn in dotted lines, to columns with unique constraints. Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated PDF file.
+Weak associations are drawn in dotted lines, to columns with unique constraints. 
+
+Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated PDF file.
 

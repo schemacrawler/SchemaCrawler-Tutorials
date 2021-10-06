@@ -15,7 +15,7 @@ schemacrawler \
 --no-info
 ```{{execute}}
 
-Notice that we have used the "maximum" information level, and the "details" command. We have changed the regular expression with `--grep-tables` to include just a single table.
+Notice that we have used the "maximum" information level, and the "details" command. We have changed the regular expression with `--grep-tables` to include just a single table. You will see details of indexes, constraints like primary keys and foreign keys, triggers and the DDL used to create them.
 
 
 ## Visualize the "film" Table
@@ -31,6 +31,8 @@ schemacrawler \
 --output-file share/film-table.pdf
 ```{{execute}}
 
-This is as simple as directing output to a file with the correct extension. You can view the generated file in the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), after refreshing the browser.
+This is as simple as directing output to a file with the correct extension. 
+
+Check that the output file was generated, run: `ls -lt share`{{execute}} You can view the generated file in the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), after refreshing the browser.
 
 In the diagram, you can see the tables that have a parent table relationship (the "films" table imports foreign keys from those tables), as well as tables that have a child relationship via the "film_id" column. Let us explore the children tables in more detail.

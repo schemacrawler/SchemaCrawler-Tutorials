@@ -20,4 +20,4 @@ schemacrawler \
 --output-file share/sakila.dbml
 ```{{execute}}
 
-Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated DBML file. Copy the contents of the file, and paste into [dbdiagram.io](https://dbdiagram.io/d). You can continue to design and modify your schema using this tool. 
+Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated DBML file. Copy the contents of the file, and paste into [dbdiagram.io](https://dbdiagram.io/d). You can continue to design and modify your schema using this tool. 

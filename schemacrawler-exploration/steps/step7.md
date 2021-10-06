@@ -30,7 +30,7 @@ schemacrawler \
 --output-file share/sakila2.txt
 ```{{execute}}
 
-Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated text files.
+Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated text files.
 
 You can find schema differences with diff. Run:
 
