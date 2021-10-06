@@ -16,7 +16,7 @@ schemacrawler \
 --output-file share/film-table-children.pdf
 ```{{execute}}
 
-Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated PDF file.
+Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated PDF file.
 
 
 ## Find Tables With a "film_id" Column
