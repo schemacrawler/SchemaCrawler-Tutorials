@@ -5,6 +5,14 @@
   "difficulty": "Intermediate",
   "time": "30 minutes",
   "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "*.py",
+          "target": "~/share"
+        }
+      ]
+    },
     "intro": {
       "code": "scripts/env-init.sh",
       "text": "steps/intro.md"
@@ -37,6 +45,10 @@
       {
         "title": "Step 7 - Compare Different Versions of a Database Schema",
         "text": "steps/step7.md"
+      },
+      {
+        "title": "Step 8 - Continue Designing Your Database Schema",
+        "text": "steps/step8.md"
       }
     ],
     "finish": {
