@@ -70,15 +70,7 @@ for table in catalog.tables:
           + MetaDataUtility.getColumnsListAsString(fk, TableRelationshipType.child, IdentifierQuotingStrategy.quote_all, '"') \
           + ')', end = '')
     print(' [update: ' + fk.updateRule.toString() + ', delete: ' + fk.deleteRule.toString() + ']', end = '')
-    print()  
+    print()
     print("}")
     print('')
 print('')
-
-# Table groups
-for schema in catalog.schemas:
-  print('TableGroup "' + re.sub(r'\"', '', schema.fullName) + '" {')
-  for table in catalog.getTables(schema):
-    print('  "' + re.sub(r'\"', '', table.fullName) + '"')
-  print('}')
-  print('')

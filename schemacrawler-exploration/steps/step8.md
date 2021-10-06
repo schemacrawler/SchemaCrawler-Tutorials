@@ -12,7 +12,8 @@ Generate DBML for your database, run:
 schemacrawler \
 --url "jdbc:sqlite:sakila.db" \
 --info-level standard \
---command schema \
+--command script \
+--table-types TABLE \
 --no-info \
 --script=./share/dbml.py \
 --scripting-language=python \
