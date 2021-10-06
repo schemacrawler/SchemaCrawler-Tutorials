@@ -33,6 +33,10 @@
       {
         "title": "Step 6 - Explore Data",
         "text": "steps/step6.md"
+      },
+      {
+        "title": "Step 7 - Compare Different Versions of a Database Schema",
+        "text": "steps/step7.md"
       }
     ],
     "finish": {
