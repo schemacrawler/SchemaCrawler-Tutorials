@@ -6,4 +6,4 @@ From the SchemaCrawler Interactive Shell, run:
 
 `execute --command=serialize --serialization-format=yaml --output-file=./share/schema.yaml`{{execute}}
 
-You will notice the output file generated on the host system, in the "File Browser" view. Open the output file to view the contents.
+Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated file.

@@ -6,4 +6,4 @@ From the command-line, run:
 
 `execute --command=script --script=./share/tables.py --scripting-language=python --output-file=./share/tables.py.txt`{{execute}}
 
-You will notice the output file generated on the host system, in the "File Browser" view. Open the output file to view the contents. Open `./share/tables.py` to see the script.
+Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated file. Open `./share/tables.py` to see the script.

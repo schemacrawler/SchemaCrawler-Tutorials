@@ -6,4 +6,4 @@ From the command-line, run:
 
 `execute --command=template --template=./share/tables.mustache --templating-language=mustache --output-file=./share/tables.mustache.txt`{{execute}}
 
-You will notice the output file generated on the host system, in the "File Browser" view. Open the output file to view the contents. Open `./share/tables.mustache` to see the script.
+Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated file. Open `./share/tables.mustache` to see the script.
