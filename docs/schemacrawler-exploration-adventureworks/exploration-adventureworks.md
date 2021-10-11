@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD024 -->
 # Explore the AdventureWorks Database with SchemaCrawler
 
-### Setup
+## Setup
 
 - Start SchemaCrawler with the AdventureWorks Database on Microsoft SQL Server  
   `docker-compose f adventureworks.yml run --rm schemacrawler`
@@ -33,7 +33,7 @@
   `schemacrawler --server sqlserver --host adventureworks --database AdventureWorks --schemas AdventureWorks\.[A-Z].* --user SA --password Schem#Crawl3r --info-level maximum --command details --grep-tables ".*\.Employee" --children 1 --output-format htmlx --output-file share/employee-table.html`
 
 
-### Tear Down
+## Tear Down
 
 - Stop the SchemaCrawler and database Docker containers  
   `docker-compose -f adventureworks.yml down -t0`
