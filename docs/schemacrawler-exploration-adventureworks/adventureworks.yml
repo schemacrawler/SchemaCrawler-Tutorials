@@ -1,0 +1,39 @@
+version: "3.9"
+
+networks:
+
+  dbnet:
+    driver: overlay
+    attachable: true
+
+    
+services:
+
+  adventureworks:
+    image: chriseaton/adventureworks
+    container_name: adventureworks
+    ports:
+      - target: 1433
+        published: 1433
+        protocol: tcp
+        mode: host
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Schem#Crawl3r
+    networks:
+      - dbnet
+      
+  schemacrawler:
+    image: schemacrawler/schemacrawler
+    container_name: schemacrawler
+    depends_on: 
+    - adventureworks
+    stdin_open: true
+    tty: true
+    volumes:
+      - type: bind
+        source: ./
+        target: /home/schcrwlr/share
+    entrypoint: /bin/bash
+    networks:
+      - dbnet
