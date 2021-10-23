@@ -11,7 +11,7 @@ Click on the "Examples Browser" tab. You will see `lint` in the list of examples
 
 Switch back to the terminal, but clicking on the "Terminal" tab. Change to the SchemaCrawler directory, run:
 
-`cd ~/schemacrawler-16.15.9-distribution/_schemacrawler`{{execute}}
+`cd ~/schemacrawler-16.15.10-distribution/_schemacrawler`{{execute}}
 
 Try SchemaCrawler lint, run:
 
