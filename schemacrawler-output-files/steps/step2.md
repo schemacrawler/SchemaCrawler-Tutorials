@@ -6,4 +6,4 @@ From the SchemaCrawler Interactive Shell, run:
 
 `execute --command=schema --no-info --output-file=./share/schema.txt`{{execute}}
 
-Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated file.
+Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated file.
