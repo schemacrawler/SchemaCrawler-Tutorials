@@ -1,7 +1,5 @@
-from schemacrawler.schema import TableRelationshipType
-
 for table in catalog.tables:
   print ''
   print table.fullName
-  for childTable in table.getRelatedTables(TableRelationshipType.child):
+  for childTable in table.referencingTables:
     print "  [child] " + childTable.fullName
