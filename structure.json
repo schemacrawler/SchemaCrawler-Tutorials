@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "path": "schemacrawler" },
+    { "path": "schemacrawler-shell" },
+    { "path": "schemacrawler-output-files" },
+    { "path": "schemacrawler-examples" },
+    { "path": "schemacrawler-exploration" }
+  ]
+}
