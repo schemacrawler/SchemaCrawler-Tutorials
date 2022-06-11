@@ -8,9 +8,9 @@ Use SchemaCrawler to list all tables in the Sakila database, run:
 
 ```
 schemacrawler \
---url "jdbc:sqlite:sakila.db" \
---info-level minimum \
---command list
+  --url "jdbc:sqlite:sakila.db" \
+  --info-level minimum \
+  --command list
 ```{{execute}}
 
 
@@ -20,8 +20,8 @@ We did not know anything about the database, but now we know a little more. The 
 
 ```
 schemacrawler \
---url "jdbc:sqlite:sakila.db" \
---info-level minimum \
---command list \
---grep-tables film.*
+  --url "jdbc:sqlite:sakila.db" \
+  --info-level minimum \
+  --command list \
+  --grep-tables film.*
 ```{{execute}}

@@ -1,7 +1,5 @@
 This scenario shows you how to explore an unknown database.
 
-> Please wait for the SchemaCrawler Docker container to start. Then, move on to the steps.
-
 -----
 
 ## Open File Browser for SchemaCrawler Output Files

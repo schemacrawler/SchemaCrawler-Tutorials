@@ -8,11 +8,11 @@ Use SchemaCrawler to show details of the "film" table, run:
 
 ```
 schemacrawler \
---url "jdbc:sqlite:sakila.db" \
---info-level maximum \
---command details \
---grep-tables film \
---no-info
+  --url "jdbc:sqlite:sakila.db" \
+  --info-level maximum \
+  --command details \
+  --grep-tables film \
+  --no-info
 ```{{execute}}
 
 Notice that we have used the "maximum" information level, and the "details" command. We have changed the regular expression with `--grep-tables` to include just a single table. You will see details of indexes, constraints like primary keys and foreign keys, triggers and the DDL used to create them.
@@ -24,11 +24,11 @@ Use SchemaCrawler to draw an entity-relationship diagram of the "film" table, ru
 
 ```
 schemacrawler \
---url "jdbc:sqlite:sakila.db" \
---info-level maximum \
---command details \
---grep-tables film \
---output-file share/film-table.pdf
+  --url "jdbc:sqlite:sakila.db" \
+  --info-level maximum \
+  --command details \
+  --grep-tables film \
+  --output-file share/film-table.pdf
 ```{{execute}}
 
 This is as simple as directing output to a file with the correct extension. 

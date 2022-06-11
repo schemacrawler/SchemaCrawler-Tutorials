@@ -1,7 +1,5 @@
 This scenario shows you how to start the SchemaCrawler Interactive Shell.
 
-> Please wait for the SchemaCrawler Docker container to start. Then, move on to the steps.
-
 -----
 
 ## Open File Browser for SchemaCrawler Output Files

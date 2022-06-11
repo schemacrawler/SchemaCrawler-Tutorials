@@ -10,11 +10,11 @@ Find database schema design issues with SchemaCrawler lint, run:
 
 ```
 schemacrawler \
---url "jdbc:sqlite:sakila.db" \
---no-info \
---info-level standard \
---command lint \
---grep-columns .*\.film_id
+  --url "jdbc:sqlite:sakila.db" \
+  --no-info \
+  --info-level standard \
+  --command lint \
+  --grep-columns .*\.film_id
 ```{{execute}}
 
 Review the design issues that SchemaCrawler has found. If you go back and look at the details of the "CREATE" statement for the "films" table, you will see the reason why SchemaCrawler reports "column where NULL may be intended". For example, "original_language_id SMALLINT DEFAULT NULL" is better defined simply as "original_language_id SMALLINT".

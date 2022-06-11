@@ -14,20 +14,20 @@ Then, output the schema as text files, using the following commands. Run:
 
 ```
 schemacrawler \
---url "jdbc:sqlite:sakila.db" \
---info-level standard \
---command schema \
---no-info \
---output-file share/sakila.txt
+  --url "jdbc:sqlite:sakila.db" \
+  --info-level standard \
+  --command schema \
+  --no-info \
+  --output-file share/sakila.txt
 ```{{execute}}
 
 ```
 schemacrawler \
---url "jdbc:sqlite:sakila2.db" \
---info-level standard \
---command schema \
---no-info \
---output-file share/sakila2.txt
+  --url "jdbc:sqlite:sakila2.db" \
+  --info-level standard \
+  --command schema \
+  --no-info \
+  --output-file share/sakila2.txt
 ```{{execute}}
 
 Check that the output file was generated, run: `ls -lt share`{{execute}} Refresh the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com), and view the generated text files.
