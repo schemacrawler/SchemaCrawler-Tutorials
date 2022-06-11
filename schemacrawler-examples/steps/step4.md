@@ -15,8 +15,23 @@ Switch back to the terminal, but clicking on the "Terminal" tab. Change to the S
 
 Try SchemaCrawler lint, run:
 
-`./schemacrawler.sh --server=hsqldb --database=schemacrawler --password= --info-level=standard --command=lint`{{execute}}
+```
+./schemacrawler.sh \
+  --server=hsqldb \
+  --database=schemacrawler \
+  --password= \
+  --info-level=standard \
+  --command=lint
+```{{execute}}
 
 Produce JSON output for SchemaCrawler lint, run:
 
-`./schemacrawler.sh --server=hsqldb --database=schemacrawler --password= --info-level=standard --command=lint -F json`{{execute}}
+```
+./schemacrawler.sh \
+  --server=hsqldb \
+  --database=schemacrawler \
+  --password= \
+  --info-level=standard \
+  --command=lint \
+  -F json
+```{{execute}}
