@@ -5,4 +5,10 @@ This step shows you how to connect to a database, in this case, SQLite. You will
 
 Generate a list of tables from a SQLite database, by running:
 
-`schemacrawler --server=sqlite --database=sc.db --info-level=minimum --command=list`{{execute}}
+```
+schemacrawler \
+  --server=sqlite \
+  --database=sc.db \
+  --info-level=minimum \
+  --command=list
+```{{execute}}

@@ -6,4 +6,13 @@ This is a powerful way to inspect a schema without knowing any table names in ad
 
 Run the following SchemaCrawler command-line:
 
-`schemacrawler --server=sqlite --database=sc.db --no-info --grep-columns ".*Authors.*" --parents=1  --info-level=standard --command=brief`{{execute}}
+```
+schemacrawler \
+  --server=sqlite \
+  --database=sc.db \
+  --no-info \
+  --grep-columns ".*Authors.*" \
+  --parents=1 \
+  --info-level=standard \
+  --command=brief
+```{{execute}}

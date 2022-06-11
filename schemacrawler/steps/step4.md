@@ -7,4 +7,12 @@ will ignore all other tables.
 
 Limit tables in the output, by running:
 
-`schemacrawler --server=sqlite --database=sc.db --tables=.*Authors --no-info --info-level=maximum --command=details`{{execute}}
+```
+schemacrawler \
+  --server=sqlite \
+  --database=sc.db \
+  --tables=.*Authors \
+  --no-info \
+  --info-level=maximum \
+  --command=details
+```{{execute}}
