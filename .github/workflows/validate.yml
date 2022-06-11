@@ -37,12 +37,3 @@ jobs:
         VALIDATE_DOCKER: true
         VALIDATE_CSS: true
         VALIDATE_ENV: true
-
-# BUILD AND TEST
-    - id: validate-katacoda
-      name: Validate Katacoda scenarios
-      if: false # Do not build, since the Katacoda command-line is buggy, and does not take steps in a separate folder
-      run: |
-        sudo npm i katacoda-cli --global
-        katacoda --version
-        katacoda validate:all --repo ${{ github.workspace }}

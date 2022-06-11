@@ -9,7 +9,7 @@
     <artifactId>schemacrawler-parent</artifactId>
     <version>16.16.16</version>
   </parent>
-  <artifactId>schemacrawler-katacoda</artifactId>
+  <artifactId>schemacrawler-tutorials</artifactId>
   <packaging>pom</packaging>
-  <name>SchemaCrawler - Katacoda Tutorials</name>
+  <name>SchemaCrawler - Tutorials</name>
 </project>
