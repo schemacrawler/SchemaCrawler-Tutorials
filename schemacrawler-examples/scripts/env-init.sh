@@ -3,9 +3,10 @@
 # Setup a shared directory which will be mounted on the Docker container
 # and make the "users" group the owner
 adduser root users
-chown :100 /root
-chmod 777 /root
-chmod g+s /root
+mkdir /root/share
+chown :100 /root/share
+chmod 777 /root/share
+chmod g+s /root/share
 
 # Start a webserver where output files will be created
 python3 -m http.server 80 --directory /root/share > ~/webserver.log 2>&1 &
@@ -15,5 +16,5 @@ docker run \
 -v /root/share:/home/schcrwlr/share \
 --name schemacrawler \
 --rm -i -t \
-openjdk:17-jdk-alpine \
+schemacrawler/schemacrawler:v16.16.17 \
 /bin/sh -l
