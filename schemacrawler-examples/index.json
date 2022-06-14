@@ -6,6 +6,7 @@
   "time": "60 minutes",
   "details": {
     "intro": {
+      "code": "scripts/env-init.sh",
       "text": "steps/intro.md"
     },
     "steps": [
@@ -15,8 +16,7 @@
       },
       {
         "title": "Step 2 - Download Supporting Software",
-        "text": "steps/step2.md",
-        "courseData": "scripts/env-init.sh"
+        "text": "steps/step2.md"
       },
       {
         "title": "Step 3 - Start Database Server",
