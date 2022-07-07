@@ -6,7 +6,7 @@
 
 ## About
 
-Visit <https://www.katacoda.com/schemacrawler> to learn how to use the SchemaCrawler command-line and interactive shell.
+Visit <https://killercoda.com/schemacrawler> to learn how to use the SchemaCrawler command-line and interactive shell.
 
 
 ## Licensing
