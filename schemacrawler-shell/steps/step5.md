@@ -9,11 +9,12 @@ names ahead of time.
 
 Use the `sweep` command to reset the SchemaCrawler Interactive Shell, and then load metadata, run:
 
-```
-sweep
-connect --server=sqlite --database=sc.db
-load --info-level=standard
-```{{execute}}
+`sweep`{{execute}}
+
+`connect --server=sqlite --database=sc.db`{{execute}}
+
+`load --info-level=standard`{{execute}}
+
 
 ## Grep for Tables
 
