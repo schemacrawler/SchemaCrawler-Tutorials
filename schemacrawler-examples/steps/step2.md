@@ -6,7 +6,7 @@ This step shows you how to download supporting software for SchemaCrawler.
 
 Change to the downloader directory, run:
 
-`cd schemacrawler-16.17.2-distribution/_downloader`{{execute}}
+`cd schemacrawler-16.17.4-distribution/_downloader`{{execute}}
 
 Download additional software for SchemaCrawler scripting into the SchemaCrawler `lib/` folder, run:
 
@@ -24,10 +24,10 @@ Download additional software for SchemaCrawler templating into the SchemaCrawler
 
 ## Install Graphviz
 
-Install [Graphviz](https://www.graphviz.org/) to assist with generating SchemaCrawler database diagrams, run:
-
-`sudo apt-get -q -y install graphviz fonts-freefont-ttf`{{execute}}
-
 Verify that Graphviz is installed, run:
 
 `dot -V`{{execute}}
+
+If it is not installed, install [Graphviz](https://www.graphviz.org/) to assist with generating SchemaCrawler database diagrams, if it is not installed, using a command such as:
+
+`sudo apt-get -q -y install graphviz fonts-freefont-ttf`
