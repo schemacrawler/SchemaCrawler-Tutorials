@@ -8,7 +8,7 @@ The only constant is change, they say. Your database schema evolves too, and Sch
 
 First, download another version of the Sakila database, run:
 
-`wget -O sakila2.db https://github.com/bradleygrant/sakila-sqlite3/raw/main/sakila_master.db`{{execute}}
+`wget -O sakila2.db https://github.com/bradleygrant/sakila-sqlite3/raw/main/sakila_main.db`{{execute}}
 
 Then, output the schema as text files, using the following commands. Run:
 

@@ -11,4 +11,4 @@ Open the ["File Browser"](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].enviro
 
 Download a SQLite version of the [Sakila database](https://dev.mysql.com/doc/sakila/en/), run:
 
-`wget https://github.com/ivanceras/sakila/raw/master/sqlite-sakila-db/sakila.db`{{execute}}
+`wget https://github.com/ivanceras/sakila/raw/main/sqlite-sakila-db/sakila.db`{{execute}}
