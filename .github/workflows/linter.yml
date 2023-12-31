@@ -1,0 +1,56 @@
+name: Lint Code Base
+
+on:
+  workflow_dispatch:
+  push:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: read-all
+
+jobs:
+  build:
+    name: Lint code base
+    runs-on: ubuntu-latest
+    steps:
+
+# CHECKOUT CODE
+    - id: checkout-code
+      name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        # Full git history is needed to get a proper list
+        # of changed files within `super-linter`
+        fetch-depth: 0
+
+# LINT CODE
+    - id: read-env
+      name: Use super-linter environmental variables
+      shell: bash
+      run: |
+        # Use super-linter environmental variables
+        cat .github/super-linter.env >> "$GITHUB_ENV"
+    - id: lint-code-base
+      name: Lint Code Base
+      uses: github/super-linter/slim@v5.0.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        DEFAULT_BRANCH: main
+    - id: strip-ansi-codes
+      name: Strip ANSI codes from log
+      if: always()
+      shell: bash
+      run: |
+        # Strip ANSI codes from log
+        mv super-linter.log original-super-linter.log
+        sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[mGK]//g" original-super-linter.log > super-linter.log
+    - id: persist-log
+      name: Persist linter logs
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: super-linter-log
+        path: super-linter.log
+        retention-days: 9
