@@ -6,14 +6,15 @@ This step shows you how to download supporting software for SchemaCrawler.
 
 Change to the downloader directory, run:
 
-`cd schemacrawler-16.21.4-distribution/_downloader`{{execute}}
+`cd schemacrawler-16.22.1-distribution/_downloader`{{execute}}
 
 Download additional software for SchemaCrawler scripting into the SchemaCrawler `lib/` folder, run:
 
 - `./download.sh javascript`{{execute}} - for JavaScript language scripting with SchemaCrawler
 - `./download.sh python`{{execute}} - for Python language scripting with SchemaCrawler
-- `./download.sh groovy`{{execute}} - for Groovy language scripting with SchemaCrawler
 - `./download.sh ruby`{{execute}} - for Ruby language scripting with SchemaCrawler
+- `./download.sh kotlin`{{execute}} - for Kotlin language scripting with SchemaCrawler
+- `./download.sh groovy`{{execute}} - for Groovy language scripting with SchemaCrawler
 
 Download additional software for SchemaCrawler templating into the SchemaCrawler `lib/` folder, run:
 
