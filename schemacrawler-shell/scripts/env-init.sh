@@ -15,5 +15,5 @@ docker run \
 -v /root/share:/home/schcrwlr/share \
 --name schemacrawler \
 --rm -i -t \
-schemacrawler/schemacrawler:v16.24.1 \
+schemacrawler/schemacrawler:v16.24.2 \
 bash
