@@ -11,7 +11,7 @@ Click on the "Examples Browser" tab. You will see `diagram` in the list of examp
 
 Switch back to the terminal, but clicking on the "Terminal" tab. Change to the `diagram` folder, run:
 
-`cd ~/schemacrawler-16.27.1-distribution/examples/diagram`{{execute}}
+`cd ~/schemacrawler-16.28.1-distribution/examples/diagram`{{execute}}
 
 Try SchemaCrawler diagram, run:
 
