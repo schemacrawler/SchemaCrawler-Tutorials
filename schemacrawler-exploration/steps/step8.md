@@ -4,7 +4,7 @@ This step shows you how to continue to evolve your database design.
 
 ## Evolve Your Database Schema
 
-SchemaCrawler can execute Python, Ruby, Kotlin or Groovy scripts against your database. We have provided a Python script called "dbml.py" that outputs your database schema in [DBML (Database Markup Language)](https://www.dbml.org/home/) so that it can be edited online using [dbdiagram.io](https://dbdiagram.io/d).
+SchemaCrawler can execute Python or JavaScript scripts against your database. We have provided a Python script called "dbml.py" that outputs your database schema in [DBML (Database Markup Language)](https://www.dbml.org/home/) so that it can be edited online using [dbdiagram.io](https://dbdiagram.io/d).
 
 Generate DBML for your database, run:
 
