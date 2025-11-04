@@ -6,7 +6,7 @@ This step shows you how to start an example database server for experimenting wi
 
 Change to the database server directory, run:
 
-`cd ~/schemacrawler-17.1.3-distribution/_testdb`{{execute}}
+`cd ~/schemacrawler-17.1.4-distribution/_testdb`{{execute}}
 
 Start the database server in the background, run:
 
