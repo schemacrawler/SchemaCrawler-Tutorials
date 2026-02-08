@@ -7,7 +7,7 @@
      <groupId>us.fatehi</groupId>[m
      <artifactId>schemacrawler-parent</artifactId>[m
 [31m-    <version>17.2.8</version>[m
-[32m+[m[32m    <version>17.6.0</version>[m
+[32m+[m[32m    <version>17.6.1</version>[m
    </parent>[m
    <artifactId>schemacrawler-tutorials</artifactId>[m
    <packaging>pom</packaging>[m
@@ -20,7 +20,7 @@
  --name schemacrawler \[m
  --rm -i -t \[m
 [31m-schemacrawler/schemacrawler:v17.2.8 \[m
-[32m+[m[32mschemacrawler/schemacrawler:v17.6.0 \[m
+[32m+[m[32mschemacrawler/schemacrawler:v17.6.1 \[m
  bash[m
 [1mdiff --git a/schemacrawler-examples/steps/step1.md b/schemacrawler-examples/steps/step1.md[m
 [1mindex 0f07d3d..13a5978 100644[m
@@ -31,12 +31,12 @@
  Download the latest SchemaCrawler release, by running:[m
  [m
 [31m-`wget -q  https://github.com/schemacrawler/SchemaCrawler/releases/download/v17.2.8/schemacrawler-17.2.8-distribution.zip`{{execute}}[m
-[32m+[m[32m`wget -q  https://github.com/schemacrawler/SchemaCrawler/releases/download/v17.6.0/schemacrawler-17.6.0-distribution.zip`{{execute}}[m
+[32m+[m[32m`wget -q  https://github.com/schemacrawler/SchemaCrawler/releases/download/v17.6.1/schemacrawler-17.6.1-distribution.zip`{{execute}}[m
  [m
  and unzip it by running:[m
  [m
 [31m-`unzip -q schemacrawler-17.2.8-distribution.zip`{{execute}}[m
-[32m+[m[32m`unzip -q schemacrawler-17.6.0-distribution.zip`{{execute}}[m
+[32m+[m[32m`unzip -q schemacrawler-17.6.1-distribution.zip`{{execute}}[m
 [1mdiff --git a/schemacrawler-examples/steps/step2.md b/schemacrawler-examples/steps/step2.md[m
 [1mindex c3e9117..60b087f 100644[m
 [1m--- a/schemacrawler-examples/steps/step2.md[m
@@ -46,7 +46,7 @@
  Change to the downloader directory, run:[m
  [m
 [31m-`cd schemacrawler-17.2.8-distribution/_downloader`{{execute}}[m
-[32m+[m[32m`cd schemacrawler-17.6.0-distribution/_downloader`{{execute}}[m
+[32m+[m[32m`cd schemacrawler-17.6.1-distribution/_downloader`{{execute}}[m
  [m
  Download additional software for SchemaCrawler scripting into the SchemaCrawler `lib/` folder, run:[m
  [m
@@ -59,7 +59,7 @@
  Change to the database server directory, run:[m
  [m
 [31m-`cd ~/schemacrawler-17.2.8-distribution/_testdb`{{execute}}[m
-[32m+[m[32m`cd ~/schemacrawler-17.6.0-distribution/_testdb`{{execute}}[m
+[32m+[m[32m`cd ~/schemacrawler-17.6.1-distribution/_testdb`{{execute}}[m
  [m
  Start the database server in the background, run:[m
  [m
@@ -72,7 +72,7 @@
  Switch back to the terminal, but clicking on the "Terminal" tab. Change to the SchemaCrawler directory, run:[m
  [m
 [31m-`cd ~/schemacrawler-17.2.8-distribution/_schemacrawler/bin`{{execute}}[m
-[32m+[m[32m`cd ~/schemacrawler-17.6.0-distribution/_schemacrawler/bin`{{execute}}[m
+[32m+[m[32m`cd ~/schemacrawler-17.6.1-distribution/_schemacrawler/bin`{{execute}}[m
  [m
  Try SchemaCrawler lint, run:[m
  [m
@@ -85,7 +85,7 @@
  Switch back to the terminal, but clicking on the "Terminal" tab. Change to the `diagram` folder, run:[m
  [m
 [31m-`cd ~/schemacrawler-17.2.8-distribution/examples/diagram`{{execute}}[m
-[32m+[m[32m`cd ~/schemacrawler-17.6.0-distribution/examples/diagram`{{execute}}[m
+[32m+[m[32m`cd ~/schemacrawler-17.6.1-distribution/examples/diagram`{{execute}}[m
  [m
  Try SchemaCrawler diagram, run:[m
  [m
@@ -98,7 +98,7 @@
  --name schemacrawler \[m
  --rm -i -t \[m
 [31m-schemacrawler/schemacrawler:v17.2.8 \[m
-[32m+[m[32mschemacrawler/schemacrawler:v17.6.0 \[m
+[32m+[m[32mschemacrawler/schemacrawler:v17.6.1 \[m
  bash[m
 [1mdiff --git a/schemacrawler-output-files/scripts/env-init.sh b/schemacrawler-output-files/scripts/env-init.sh[m
 [1mindex 055beee..d2db628 100644[m
@@ -109,7 +109,7 @@
  --name schemacrawler \[m
  --rm -i -t \[m
 [31m-schemacrawler/schemacrawler:v17.2.8 \[m
-[32m+[m[32mschemacrawler/schemacrawler:v17.6.0 \[m
+[32m+[m[32mschemacrawler/schemacrawler:v17.6.1 \[m
  bash[m
 [1mdiff --git a/schemacrawler-shell/scripts/env-init.sh b/schemacrawler-shell/scripts/env-init.sh[m
 [1mindex b572490..347cb45 100644[m
@@ -120,7 +120,7 @@
  --name schemacrawler \[m
  --rm -i -t \[m
 [31m-schemacrawler/schemacrawler:v17.2.8 \[m
-[32m+[m[32mschemacrawler/schemacrawler:v17.6.0 \[m
+[32m+[m[32mschemacrawler/schemacrawler:v17.6.1 \[m
  bash[m
 [1mdiff --git a/schemacrawler/scripts/env-init.sh b/schemacrawler/scripts/env-init.sh[m
 [1mindex 055beee..d2db628 100755[m
@@ -131,5 +131,5 @@
  --name schemacrawler \[m
  --rm -i -t \[m
 [31m-schemacrawler/schemacrawler:v17.2.8 \[m
-[32m+[m[32mschemacrawler/schemacrawler:v17.6.0 \[m
+[32m+[m[32mschemacrawler/schemacrawler:v17.6.1 \[m
  bash[m
